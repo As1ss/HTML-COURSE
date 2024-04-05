@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Form ejemplo</title>
+</head>
+<body>
+    <h1>Form ejemplo</h1>
+    <form action="/formulario" method="POST">
+        <label for="nombreUsuario">Text</label>
+        <input id="nombreUsuario" name="nombreUsuario"
+        placeholder="Introduce tu nombre..."
+        type="text">
+        <p>
+        <label for="passwordUsuario">Password</label>
+        <input id="passwordUsuario" name="passwordUsuario" 
+        type="password" placeholder="Introduce tu contrase&ntilde;a">
+        </p>
+        <p>
+            <label for="emailUsuario">Email</label>
+            <input id="emailUsuario" name="emailUsuario"
+            type="text" placeholder="Introduce tu email..."
+            />
+        </p>
+        <p>
+            <label>CheckBox</label>
+            <label for="cbUsuario">Vivo</label>
+            <input id="cbUsuario" name="cbUsuario"
+            type="checkbox">
+        </p>
+        <p>
+            <label>Radio</label>
+            <label>Sexo</label>
+            <p>
+                <label for="rbSi">Sí</label>
+                <input id="rbSi" name="opcion" value="si"
+                type="radio"/>
+                <label for="rbNo">No, gracias</label>
+                <input id="rbNo" name="opcion" value="no"
+                type="radio"/>
+            </p>
+        </p>
+        <p>
+            <label for="fcFoto">File Choose</label>
+            <input id="fcFoto" name="fcFoto" 
+            type="file"/>
+        </p>
+        <p>
+            <label for="taDescripcion">Text Area</label>
+            <textarea cols="50" rows="10" id="taDescripcion" name="taDescripcion"
+            placeholder="Descripcion de la persona..."></textarea>
+        </p>
+        <p>
+            <label for="submit">Submit</label>
+            <input id="submit" name="submit" placeholder="Enviar"
+            type="submit"/>
+        </p>
+        <p>
+            <label>Botones types</label>
+            <p>
+                <label>Submit</label>
+                <button type="submit">Submit</button>
+
+                <label>Reset</label>
+                <button type="reset">Reset</button>
+        
+                <label>Button</label>
+                <button type="button">Button</button>
+            </p>
+                
+          
+        </p>
+    </form>
+</body>
