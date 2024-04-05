@@ -2,13 +2,48 @@
 <html>
     <head>
         <title>Tables ejemplo</title>
+        <style>
+            table {
+            border: 2px solid black;
+            width: 500px;
+            }
+
+            th,
+            td {
+            border: 1px solid black;
+            }
+        </style>
     </head>
     <body>
         <h1>Table ejemplo</h1>
-
-
-
-
-        <a href="index.html"><button type="button">Volver</button></a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Teclado</td>
+                    <td>25,33€</td>
+                </tr>
+                <tr>
+                    <td>Monitor</td>
+                    <td>189,99€</td>
+                </tr>
+                <tr>
+                    <td>Rat&oacute;n</td>
+                    <td>64,20€</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>Total: 279,52€</td>
+            </tfoot>
+        </table>
+        <p>
+        <a href=" index.html"><button type="button">Volver</button></a>
+        </p>
     </body>
 </html>
